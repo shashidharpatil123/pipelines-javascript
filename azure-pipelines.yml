@@ -27,7 +27,7 @@ steps:
     artifact: 'drop'
     publishLocation: 'pipeline'
 - task: DownloadBuildArtifacts@0
-  displayName: : "download Artefacts"
+  displayName: "downloadArtefacts"
   inputs:
     buildType: 'current'
     downloadType: 'specific'
